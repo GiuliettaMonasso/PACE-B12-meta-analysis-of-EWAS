@@ -1,0 +1,34 @@
+####################
+
+metal
+
+SCHEME STDERR
+GENOMICCONTROL OFF
+COLUMNCOUNTING LENIENT
+
+
+MARKER PROBEID
+EFFECT BETA
+STDERRLABEL SE
+PVALUE P_VAL
+SEPARATOR COMMA
+
+
+
+PROCESS    ALSPAC.newborn.main.model.results.20200927.csv
+
+PROCESS    GENR.newborn.main.model.results.20200730.csv
+
+
+
+
+
+OUTFILE MA.b12.newborn.main.model.GSM. .txt 
+VERBOSE      ON
+ANALYZE HETEROGENEITY
+
+QUIT
+
+
+############################
+
