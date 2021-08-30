@@ -1,0 +1,37 @@
+
+####################
+ 
+metal
+ 
+SCHEME STDERR
+GENOMICCONTROL OFF
+COLUMNCOUNTING LENIENT
+ 
+ 
+MARKER PROBEID
+EFFECT BETA
+STDERRLABEL SE
+PVALUE P_VAL
+SEPARATOR COMMA
+ 
+ 
+ 
+PROCESS    GENR.maternal.main.model.results.20200730.csv
+ 
+PROCESS    INMA.maternal.main.model.results.20200709.csv
+
+ 
+PROCESS    MOBA1.maternal.main.model.results.20200505.csv
+ 
+PROCESS    MOBA2.maternal.main.model.results.20200504.csv
+ 
+
+ 
+OUTFILE MA.b12.maternal.main.model.GSM.no.MARBLES. .txt
+VERBOSE      ON
+ANALYZE HETEROGENEITY
+ 
+QUIT
+ 
+ 
+############################
